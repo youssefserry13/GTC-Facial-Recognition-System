@@ -1,4 +1,4 @@
-#GTC-ML-Internship -Final Project- Facial Recognition System 👤
+# Facial Recognition System 👤
 
 ## 📌 Project Overview
 Traditional security systems relying on passwords, PINs, or ID cards are vulnerable to theft and misuse.  
@@ -70,8 +70,18 @@ We used publicly available datasets:
 
 ---
 
+## 📁 Repository Structure
+- `app.py`: Streamlit application for real-time identity prediction.
+- `docs/`: Project documentation and presentations.
+- `models/`: Trained model files.
+- `results/`: Evaluation results and metrics.
+- `phase1_data_preparation.ipynb`: Data preprocessing and augmentation.
+- `phase2_eda_and_feature_building.ipynb`: Exploratory Data Analysis and feature extraction.
+- `phase3_model_training_and_evaluation.ipynb`: Model training, tuning, and evaluation.
+
 ## 💻 Streamlit App
-Run the app locally:
-  Local URL: http://localhost:8501
-  Network URL: http://192.168.1.3:8501
+To run the app locally:
+```bash
+streamlit run app.py
+```
 
